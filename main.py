@@ -22,12 +22,14 @@ class Bot(Client):
     async def start(self):
             
         await super().start()
-        print('✔️ Bot Started Modified By SHRiyam')
+        print('Bot Started Powered By @VJ_Botz')
 
     async def stop(self, *args):
 
         await super().stop()
         print('Bot Stopped Bye')
+
+Bot().run()
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
